@@ -1,0 +1,128 @@
+/*******************/
+/**     Header    **/
+/*******************/
+body{
+    margin: 0%;
+}
+p, h1, h2, h3{
+    font-family: 'roboto';
+}
+/* Header */
+/* Logo */
+header{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    height: 100%;
+    width: 10%;
+    background-image: linear-gradient(to right, #4c1ab1, #5625ba);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header div a img{
+    height: 80px;
+    width: auto;
+}
+.portifolioName{
+    height: 100%;
+    width: 75%;
+    padding-left: 1%;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(to right, #4c1ab1, #6335c0);
+}
+.portifolioName h1{
+    color: aliceblue;
+    font-size: 35px;
+}
+.clientInformation{
+    height: 100%;
+    width: 15%;
+    background-color: #4c1ab1;
+    display: flex;
+    flex-direction: column;
+}
+.name{
+    height: 55%;
+    padding-left: 5%;
+}
+.name p{
+    color: aliceblue;
+    font-size: 22px;
+}
+.clientInfo{
+    height: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+    background-color: #5625ba;
+}
+.info{
+    height: 90%;
+}
+.info a{
+    height: 70%;
+}
+.info img{
+    height: 70%;
+    padding-top: 20%;
+}
+/*******************/
+/**      Main     **/
+/*******************/
+main{
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: baseline;
+}
+/* Section 1 */
+
+/* Section 2 - Form */
+.form{
+    border: 2px solid;
+}
+/*******************/
+/**    Footer    **/
+/*******************/
+footer{
+    height: 80px;
+    display: flex;
+    column-gap: 30px;
+    background-image: linear-gradient(to right, #4c1ab1, #6335c0);
+    align-items: center;
+    justify-content: space-between;
+}
+footer nav ul{
+    display: flex;
+    list-style: none;
+    column-gap: 30px;
+    padding-left: 100px;
+}
+footer nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-family: "roboto";
+}
+footer div{
+    display: flex;
+    column-gap: 30px;
+    padding-right: 100px;
+}
+footer a{
+    height: 100%;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+footer img{
+    height: 90%;
+    width: auto;
+}
